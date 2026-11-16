@@ -1,0 +1,12 @@
+site_name: Arab tili
+theme:
+  name: material
+  language: uz
+  features: [navigation.top, search.suggest, content.code.copy]
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+plugins: [search]
+markdown_extensions: [tables, toc: {permalink: false}]
